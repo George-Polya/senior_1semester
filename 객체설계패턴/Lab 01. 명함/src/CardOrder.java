@@ -72,16 +72,15 @@ public class CardOrder {
 	//returns a String containing the top or bottom line
 	//of a card, including a newline character at the end
 	private String getTopLine() {
-		char[] tLineArr;
 		String tLine;
+		char[] tLineArr;
 		if(name.getIsMiddle()){
 			tLineArr = new char[CARD_LEN - 6];
 			for(int i=0;i<(CARD_LEN - 6);i++){
 				tLineArr[i] = border;
 			}
 			tLine = name.getInits() + String.valueOf(tLineArr) + name.getInits();
-		}
-		else{
+		}else{
 			tLineArr = new char[CARD_LEN - 4];
 			for(int i=0;i<(CARD_LEN - 4);i++){
 				tLineArr[i] = border;
