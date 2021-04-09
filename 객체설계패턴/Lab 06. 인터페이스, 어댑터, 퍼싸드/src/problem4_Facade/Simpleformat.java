@@ -1,10 +1,15 @@
 package problem4_Facade;
+/**
+ * SampleFormats는 파라미터로 들어온 정수입력을 여러 형식에 맞게 변환하여 출력하는 기능들을 담고 있는 클래스이다.
+ * 출력 형식으로는 dateFormat(day month월 year), intFormat(#,###), dollarFormat($ #,##0,##) personFormat 등을 제공한다
+ */
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.text.DecimalFormat;
 import java.text.MessageFormat;
+
 class SampleFormats {
     public static void main(String[] args) {
     /* Date format. Examples:
