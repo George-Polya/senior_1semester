@@ -1,4 +1,4 @@
-package problem4;
+package problem4_bridge;
 
 public class Triangle extends Shape {
     public Triangle(Color clr) {

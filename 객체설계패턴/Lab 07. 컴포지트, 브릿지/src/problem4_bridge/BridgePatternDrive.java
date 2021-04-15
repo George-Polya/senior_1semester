@@ -1,4 +1,4 @@
-package problem4;
+package problem4_bridge;
 
 public class BridgePatternDrive {
     public static void main(String[] args) {

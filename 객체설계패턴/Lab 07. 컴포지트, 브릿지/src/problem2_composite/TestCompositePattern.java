@@ -1,4 +1,4 @@
-package problem2;
+package problem2_composite;
 
 
 // 2016112158 김희수

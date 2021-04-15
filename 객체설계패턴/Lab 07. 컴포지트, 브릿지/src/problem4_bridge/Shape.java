@@ -1,4 +1,4 @@
-package problem4;
+package problem4_bridge;
 
 public abstract class Shape {
     protected Color clr;

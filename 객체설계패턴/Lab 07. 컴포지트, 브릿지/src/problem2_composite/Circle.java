@@ -1,4 +1,4 @@
-package problem2;
+package problem2_composite;
 
 public class Circle implements Shape {
     public Circle() {

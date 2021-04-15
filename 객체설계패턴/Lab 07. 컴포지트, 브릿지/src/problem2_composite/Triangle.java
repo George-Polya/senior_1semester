@@ -1,4 +1,4 @@
-package problem2;
+package problem2_composite;
 
 public class Triangle implements Shape{
     public Triangle() {
