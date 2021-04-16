@@ -1,4 +1,10 @@
 package problem3_Observer;
+// 201611258
+
+/**
+ * 기존의 DogBot 클래스의 기능을 그대로 구현한 클래스
+ *
+ */
 
 public class PlainDogBot implements DogBot {
     protected int hungry;

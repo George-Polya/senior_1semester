@@ -1,8 +1,14 @@
 package problem3_Observer;
+// 2016112158
+/**
+ * 데이터(DogBot)를 보유하는 Publisher
+ * java.util.Observable 클래스를 상속받았기 때문에 attach, detach, notify 등의 기능을 보유
+ * 동시에 DogBot인터페이스를 구현하여 DogBot의 공통기능을 보유하도록 함
+ */
 
 import java.util.Observable;
 
-public class ObservableDogBot extends Observable implements DogBot  {
+public class ObservableDogBot extends Observable implements DogBot {
 
 
     private DogBot dogbot;
@@ -11,7 +17,7 @@ public class ObservableDogBot extends Observable implements DogBot  {
         this.dogbot = dogbot;
     }
 
-    @Override
+
     public boolean eat() {
         if (dogbot.eat()) {
             setChanged();
@@ -22,7 +28,6 @@ public class ObservableDogBot extends Observable implements DogBot  {
         }
     }
 
-    @Override
     public void rest() {
         dogbot.rest();
         setChanged();
@@ -30,19 +35,18 @@ public class ObservableDogBot extends Observable implements DogBot  {
 
     }
 
-    @Override
+
     public void play() {
         dogbot.play();
         setChanged();
         notifyObservers("play");
     }
 
-    @Override
     public String noise() {
         return dogbot.noise();
     }
 
-    @Override
+
     public String getName() {
         return dogbot.getName();
     }
