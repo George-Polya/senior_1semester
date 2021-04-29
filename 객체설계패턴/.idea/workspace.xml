@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fdf0f00-7f87-4c43-9098-45d1546faa2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem1_proxy/AuthorizedUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem1_proxy/GuestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem1_proxy/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem1_proxy/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem1_proxy/UserManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem1_proxy/UserProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem1_proxy/UserProxyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem2_chain/ChainDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem2_chain/IR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem2_chain/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem2_chain/LS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem2_chain/Processor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../머신러닝/hw2/hw2-4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../머신러닝/hw2/hw2-4.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,22 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,6 +47,8 @@
       <updated>1614736349352</updated>
       <workItem from="1614736351166" duration="65000" />
       <workItem from="1616473364367" duration="1156000" />
+      <workItem from="1619579272532" duration="11000" />
+      <workItem from="1619579298313" duration="17000" />
     </task>
     <servers />
   </component>
