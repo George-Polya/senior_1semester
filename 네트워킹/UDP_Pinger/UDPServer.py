@@ -3,7 +3,7 @@ from socket import *
 
 serverSocket = socket(AF_INET, SOCK_DGRAM)
 
-serverSocket.bindas(('', 12000))
+serverSocket.bind(('', 12000))
 
 print("Started UDP Server on port 12000")
 
@@ -12,9 +12,9 @@ while True:
 
     message, address = serverSocket.recvfrom(1024)
 
-    message = message.upper()
+    modifiedMessage = message.upper()
 
     if rand < 4:
         continue
 
-    serverSocket.sendto(message, address)
+    serverSocket.sendto(modifiedMessage, address)
