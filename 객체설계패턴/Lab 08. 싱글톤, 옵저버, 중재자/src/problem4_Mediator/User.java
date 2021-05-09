@@ -21,6 +21,14 @@ public class User {
         this.chatRoom = chatRoom;
     }
 
+    public ChatRoom getChatRoom() {
+        return chatRoom;
+    }
+
+    public void setChatRoom(ChatRoom chatRoom) {
+        this.chatRoom = chatRoom;
+    }
+
     public void sendMessage(String message) {
         chatRoom.showMessage(this, message);
     }

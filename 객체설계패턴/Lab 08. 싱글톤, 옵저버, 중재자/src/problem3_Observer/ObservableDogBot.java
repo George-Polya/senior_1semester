@@ -17,6 +17,13 @@ public class ObservableDogBot extends Observable implements DogBot {
         this.dogbot = dogbot;
     }
 
+    public DogBot getDogbot() {
+        return dogbot;
+    }
+
+    public void setDogbot(DogBot dogbot) {
+        this.dogbot = dogbot;
+    }
 
     public boolean eat() {
         if (dogbot.eat()) {
