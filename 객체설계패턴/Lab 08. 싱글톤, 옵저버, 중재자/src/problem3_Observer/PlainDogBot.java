@@ -17,6 +17,26 @@ public class PlainDogBot implements DogBot {
         this.name = name;
     }
 
+    public int getHungry() {
+        return hungry;
+    }
+
+    public void setHungry(int hungry) {
+        this.hungry = hungry;
+    }
+
+    public int getTired() {
+        return tired;
+    }
+
+    public void setTired(int tired) {
+        this.tired = tired;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public boolean eat() {
         if (hungry > 6) {

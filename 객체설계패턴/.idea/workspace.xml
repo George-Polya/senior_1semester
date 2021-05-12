@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7fdf0f00-7f87-4c43-9098-45d1546faa2d" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 08. 싱글톤, 옵저버, 중재자/src/problem3_Observer/DogWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 08. 싱글톤, 옵저버, 중재자/src/problem3_Observer/DogWatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 08. 싱글톤, 옵저버, 중재자/src/problem3_Observer/ObservableDogBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 08. 싱글톤, 옵저버, 중재자/src/problem3_Observer/ObservableDogBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 08. 싱글톤, 옵저버, 중재자/src/problem3_Observer/PlainDogBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 08. 싱글톤, 옵저버, 중재자/src/problem3_Observer/PlainDogBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 08. 싱글톤, 옵저버, 중재자/src/problem4_Mediator/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 08. 싱글톤, 옵저버, 중재자/src/problem4_Mediator/User.java" afterDir="false" />
+=======
       <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem1_proxy/AuthorizedUser.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem1_proxy/GuestUser.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem1_proxy/MainClass.java" afterDir="false" />
@@ -16,6 +42,7 @@
       <change afterPath="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트/src/problem2_chain/Processor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../머신러닝/hw2/hw2-4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../머신러닝/hw2/hw2-4.ipynb" afterDir="false" />
+>>>>>>> da91f28c55d95e8356d8d4c79825f5aecd690b7f
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +60,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab 09 프록시, 책임체인, 플라이웨이트" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7fdf0f00-7f87-4c43-9098-45d1546faa2d" name="Default Changelist" comment="" />
@@ -66,5 +97,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1618892336406">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1618892336406" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1620563784108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620563784108" />
+    <state x="339" y="129" key="new project wizard" timestamp="1620563785941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="339" y="129" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1620563785941" />
   </component>
 </project>
