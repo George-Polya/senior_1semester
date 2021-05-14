@@ -16,17 +16,18 @@ public class Game {
                                                 itemList);
 
         CareTaker careTaker = new CareTaker();
-        careTaker.push(adventurer.createMemento());
+
+        careTaker.push(adventurer.createMemento()); // 스택에 메멘토 100, 50, (3,3) 저장. 현재 메멘토: 100,50, (3,3)
         adventurer.printStatus();
         System.out.println();
 
         adventurer.setHP(120);
-        careTaker.push(adventurer.createMemento());
-        adventurer.restoreMemento(careTaker.pop());
+        careTaker.push(adventurer.createMemento()); // 스택에 메멘토 120, 50, (3,3) 저장. 현재 메멘토: 120, 50, (3,3)
+        adventurer.restoreMemento(careTaker.pop()); // 메멘토 복원. 현재 메멘토: 120, 50, (3,3).
         adventurer.printStatus();
         System.out.println();
 
-        adventurer.restoreMemento(careTaker.pop());
+        adventurer.restoreMemento(careTaker.pop()); // 메멘토 복원: 현재 메멘토: 100, 50, (3,3)
         adventurer.printStatus();
         System.out.println();
 
