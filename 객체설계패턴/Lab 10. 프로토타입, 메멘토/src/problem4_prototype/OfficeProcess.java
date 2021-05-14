@@ -1,5 +1,6 @@
 package problem4_prototype;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
@@ -10,7 +11,7 @@ public class OfficeProcess {
     private String name;
     private String type;
     private HashMap customerProtoList = new HashMap<>();
-    private List<Customer> customerDB;
+    private List<Customer> customerDB = new ArrayList<>();
 
     public void register(String type, Customer proto) {
         customerProtoList.put(type, proto);
@@ -33,16 +34,16 @@ public class OfficeProcess {
 
 
     public Customer create(String type, String name) {
-        return ((Customer) customerProtoList.get(type)).Customerclone(name, this.name);
+        return ((Customer) customerProtoList.get(type)).customerclone(name, this.name);
     }
 
     public void setCustomer() {
         System.out.println("Client does some work...\n");
         System.out.println("Enter Customer names or '" + QUIT +"'");
-        String name;
+        String customerName;
         while (true) {
-            name = sc.nextLine();
-            if (name.equals(QUIT)) {
+            customerName = sc.nextLine();
+            if (customerName.equals(QUIT)) {
                 System.out.println("The customers entered during this session : ");
                 for (Customer customer : customerDB) {
                     System.out.println("Customer " + customer.getName() + ", an employee of "
@@ -52,9 +53,11 @@ public class OfficeProcess {
                 System.out.println("Client does more work...");
                 break;
             }else{
-                System.out.println("...more interaction to get information about " + name + " ... : Stored in database");
-                Customer result = this.create(type, name);
+                System.out.println("...more interaction to get information about " + customerName + " ... : Stored in database");
+                Customer result = this.create(type, customerName);
                 customerDB.add(result);
+
+
             }
         }
     }
