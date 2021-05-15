@@ -1,4 +1,8 @@
 package problem5_memento;
+/**
+ * 2016112158 김희수
+ * 상태를 저장하는 메멘토 객체
+ */
 
 import java.util.List;
 

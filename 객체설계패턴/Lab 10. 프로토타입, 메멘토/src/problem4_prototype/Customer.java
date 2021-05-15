@@ -1,5 +1,10 @@
 package problem4_prototype;
 
+/**
+ * 2016112158 김희수
+ * Customer 추상클래스
+ * 이 클래스를 상속받는 base class들은 customerclone메소드를 구현해야한다
+ */
 public abstract class Customer {
     private String type;
     private String name;

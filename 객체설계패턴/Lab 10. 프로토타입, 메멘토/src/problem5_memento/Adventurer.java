@@ -1,4 +1,8 @@
 package problem5_memento;
+/**
+ * 2016112158 김희수
+ * Memento 객체를 생성하고 이전 상태로 되돌리는 것을 담당
+ */
 
 import java.util.ArrayList;
 import java.util.List;

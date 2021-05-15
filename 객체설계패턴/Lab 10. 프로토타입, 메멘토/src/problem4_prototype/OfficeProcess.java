@@ -1,4 +1,8 @@
 package problem4_prototype;
+/**
+ * 2016112158 김희수
+ *
+ */
 
 import java.util.ArrayList;
 import java.util.HashMap;
