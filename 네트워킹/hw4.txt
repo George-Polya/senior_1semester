@@ -1,4 +1,0 @@
-problem1 > solution problem4
-problem5 > solution problem10
-problem14 > solution problem19(숫자 바꿈)
-problem20 > pdf파일
