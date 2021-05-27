@@ -1,6 +1,10 @@
 package problem2_state;
 
 import java.util.Observable;
+
+/*
+2016112158 김희수
+ */
 public class Door_1 extends Observable {
 
     public static final int CLOSED = -1;
