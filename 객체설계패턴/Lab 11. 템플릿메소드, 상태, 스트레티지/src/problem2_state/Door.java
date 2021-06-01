@@ -1,7 +1,9 @@
 package problem2_state;
 
 import java.util.Observable;
-
+/*
+2016112158 김희수
+ */
 public class Door extends Observable {
     public final DoorState CLOSED = new DoorClosed(this);
     public final DoorState CLOSING = new DoorClosing(this);
