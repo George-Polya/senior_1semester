@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05824e59-6159-494e-8e11-7e09e06b498e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problem1_command/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem1_command/BuyStockOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem1_command/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem1_command/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem1_command/SellStockOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem1_command/StockTrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem2_decorator/BasicCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem2_decorator/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem2_decorator/CarDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem2_decorator/DecoratorPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem2_decorator/LuxuryCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem2_decorator/SportsCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem3_iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem3_iterator/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem3_iterator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem3_iterator/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem3_iterator/TopicIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem3_iterator/TopicList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem4_decorator/ChineeseFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem4_decorator/DecoratorPatternCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem4_decorator/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem4_decorator/FoodDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem4_decorator/NonVegFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problem4_decorator/VegFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab 11. 템플릿메소드, 상태, 스트레티지/LAB11_오퍼레이션 패턴1(2021).docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab 11. 템플릿메소드, 상태, 스트레티지/~$B11_오퍼레이션 패턴1(2021).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB12_커맨트, 데코레이터, 반복자(2021).docx" beforeDir="false" afterPath="$PROJECT_DIR$/LAB12_커맨트, 데코레이터, 반복자(2021).docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem2_decorator/BasicCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2_decorator/BasicCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +42,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.DecoratorPatternCustomer">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem1_command.Client" />
       <module name="Lab 12. 커맨드, 데코레이터, 이터레이터" />
@@ -106,22 +84,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem3_iterator.Main" />
+      <module name="Lab 12. 커맨드, 데코레이터, 이터레이터" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem3_iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DecoratorPatternCustomer" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DecoratorPatternTest" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.DecoratorPatternCustomer" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +127,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622520659736</updated>
-      <workItem from="1622520660918" duration="1330000" />
+      <workItem from="1622520660918" duration="1431000" />
+      <workItem from="1622528913967" duration="1658000" />
     </task>
     <servers />
   </component>
@@ -150,6 +145,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -161,6 +157,26 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problem2_decorator/BasicCar.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problem2_decorator/CarDecorator.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problem2_decorator/DecoratorPatternTest.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problem2_decorator/SportsCar.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
