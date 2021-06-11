@@ -3,7 +3,7 @@ package problem2;
 import java.io.IOException;
 import java.io.Writer;
 
-public class Machine implements Writable{
+public class Machine {
     String name;
     String location;
     String bin;
@@ -19,29 +19,16 @@ public class Machine implements Writable{
         return result;
     }
 
-    public void write(String str, Writer out) throws IOException {
-        if (str.equals("Machine")) {
-            out.write("Machine " + name);
-        } else if (str.equals("bin")) {
-            if (bin() != null) {
-                out.write(" bin=" + bin());
-            }
-        }
+    void write(Writer out)
+            throws IOException {
+        out.write("Machine " + name());
+
+        if (bin() != null)
+            out.write(" bin=" + bin());
+
+        out.write("\n");
     }
 
-
-
-//    public void checkBin(Writer out) throws IOException {
-//        if (bin != null) {
-//            out.write(" bin=" + bin);
-//        }
-//    }
-//
-//    public void checkLocation(Writer out) throws IOException {
-//        if (location != null) {
-//            out.write(" location=" + location);
-//        }
-//    }
 
     public String bin() {
         return bin;

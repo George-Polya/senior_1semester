@@ -3,7 +3,7 @@ package problem2;
 import java.io.IOException;
 import java.io.Writer;
 
-public class Robot implements Writable {
+public class Robot {
     Machine location;
     String bin;
 
@@ -15,16 +15,16 @@ public class Robot implements Writable {
     public void pick() {this.bin = location.take();}
     public String bin() {return bin;}
 
-    @Override
-    public void write(String str, Writer out) throws IOException {
-        if (str.equals("location")) {
-            if (location != null) {
-                out.write(" location=" + location().name());
-            }
-        } else if (str.equals("bin")) {
-            if (bin() != null)
-                out.write(" bin=" + bin());
-        }
+    void write(Writer out)
+            throws IOException {
+        out.write("Robot");
+        if (location() != null)
+            out.write(" location=" + location().name());
+
+        if (bin() != null)
+            out.write(" bin=" + bin());
+
+        out.write("\n");
     }
 
     public void release() {
