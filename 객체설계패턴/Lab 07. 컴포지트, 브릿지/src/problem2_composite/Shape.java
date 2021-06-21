@@ -1,5 +1,0 @@
-package problem2_composite;
-
-public interface Shape {
-    void draw(String str);
-}
